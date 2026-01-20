@@ -38,7 +38,7 @@ const NewsCartData = () => {
   // Fetch API data
   useEffect(() => {
     fetch(
-      "https://newsapi.org/v2/everything?q=tesla&from=2025-12-20&sortBy=publishedAt&apiKey=ed3e46610db841bf81eb09c0358e97e1"
+      "/newsData.json"
     )
       .then((res) => res.json())
       .then((data) => {
